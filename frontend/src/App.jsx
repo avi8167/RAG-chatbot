@@ -7,8 +7,7 @@ import { Send, RotateCcw, Search } from 'lucide-react'
 const SUGGESTIONS = [
   'Summarize this document',
   'What are the key points?',
-  'List the main topics',
-  'What conclusions are drawn?',
+  'List the main topics', 
 ]
 
 const PARTICLES = Array.from({ length: 35 }, (_, i) => ({

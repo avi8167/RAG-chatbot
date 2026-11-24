@@ -10,7 +10,7 @@ A full-stack AI-powered document chatbot built with FastAPI and React. Upload an
 
 ---
 
-## 🚀 Demo Preview
+## 🚀 Demo Preview 
 
 ### Homepage & Upload
 ![Homepage](assets/Homepage.png)

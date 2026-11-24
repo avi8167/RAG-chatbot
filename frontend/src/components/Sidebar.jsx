@@ -9,7 +9,7 @@ export default function Sidebar({ onClearChat }) {
   const onDrop = useCallback(async (acceptedFiles) => {
     for (const file of acceptedFiles) {
       // Add to list with uploading state
-      const id = Date.now() + Math.random()
+      const id = Date.now() + Math.random() 
       setFiles(prev => [...prev, {
         id, name: file.name,
         size: (file.size / 1024).toFixed(1) + ' KB',

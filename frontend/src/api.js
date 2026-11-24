@@ -14,7 +14,7 @@ export const uploadPDF = async (file, onProgress) => {
       if (onProgress) onProgress(Math.round((e.loaded * 100) / e.total))
     },
   })
-  return response.data
+  return response.data 
 }
 
 export const queryDocuments = async (question, chatHistory = []) => {

@@ -1,7 +1,3 @@
-"""
-DocChat CLI — Test your RAG system from the terminal
-Usage:  python chat.py
-"""
 
 import os
 import sys

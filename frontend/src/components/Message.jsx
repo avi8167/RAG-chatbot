@@ -8,7 +8,7 @@ export default function Message({ role, content, sources }) {
   return (
     <div className={`message ${role}`}>
       <div className={`avatar ${role}`}>
-        {role === 'user' ? '👤' : '✦'}
+        {role === 'user' ? '👤' : '✦'} 
       </div>
 
       <div className={`bubble ${role}`}>
