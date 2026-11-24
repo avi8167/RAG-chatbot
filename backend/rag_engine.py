@@ -41,7 +41,8 @@ class RAGEngine:
             temperature=0.2,
         )
 
-        pc = Pinecone(api_key=pinecone_api_key)
+        pc = Pinecone(api_key="pcsk_3tJJ3f_2NWbbuHkDcXpzGtU8ZYtuwhicciFjf2aAbFUSqtwWi6PbcGSxn9wNKsoEiFD6zo")
+        index = pc.Index("quickstart")                             
         existing = [idx.name for idx in pc.list_indexes()]
         if pinecone_index_name not in existing:
             pc.create_index(
